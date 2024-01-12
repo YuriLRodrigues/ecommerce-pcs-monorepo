@@ -10,7 +10,7 @@ export const Navlink = ({ ...props }: NavlinkProps) => {
   const current = pathName === props.href;
 
   return (
-    <li className="cursor-pointer list-none">
+    <li className="cursor-pointer list-none ab">
       <Link
         className={`relative border-blue-main from-[#0379ff] to-[#01337e] px-3 font-medium uppercase text-[#fff] duration-500 hover:text-blue-main lg:border-l-0 lg:pl-0 lg:after:absolute lg:after:-bottom-[5px] lg:after:left-0 lg:after:h-[1.5px] lg:after:w-0 lg:after:bg-gradient-to-r lg:after:duration-500 lg:after:content-[''] lg:hover:after:w-[100%] ${
           current &&
