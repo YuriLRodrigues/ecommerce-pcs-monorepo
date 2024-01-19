@@ -1,3 +1,8 @@
 module.exports = {
-  extends: ["@repo/eslint-config/next.js"],
+  "root": true,
+  "extends": "@kalilasc/eslint-config/nextjs",
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": true
+  }
 };
